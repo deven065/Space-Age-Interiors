@@ -43,7 +43,7 @@ const linkStyle: React.CSSProperties = {
   textDecoration: "none",
   letterSpacing: "0.04em",
   lineHeight: 1,
-  display: "block",
+  display: "inline-block",
   transition: "color 0.3s",
 };
 

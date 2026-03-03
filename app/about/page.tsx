@@ -126,7 +126,7 @@ export default function AboutPage() {
           </motion.div>
 
           <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.9, ease: [0.25, 1, 0.5, 1] }}
-            style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
+            style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }} className="about-mosaic">
             {[
               { src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80", mt: "0" },
               { src: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80", mt: "2rem" },
@@ -288,9 +288,15 @@ export default function AboutPage() {
           .team-grid { grid-template-columns: 1fr 1fr !important; }
           .awards-grid { grid-template-columns: 1fr !important; }
           .values-grid { grid-template-columns: 1fr !important; }
+          .stats-row { grid-template-columns: 1fr 1fr !important; }
+          .about-mosaic > div { margin-top: 0 !important; }
         }
         @media (max-width: 560px) {
           .team-grid, .stats-row { grid-template-columns: 1fr 1fr !important; }
+        }
+        @media (max-width: 480px) {
+          .team-grid { grid-template-columns: 1fr !important; }
+          .values-grid > div { padding: 2rem !important; }
         }
       `}</style>
     </div>

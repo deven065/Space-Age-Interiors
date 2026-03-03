@@ -27,7 +27,7 @@ export default function Navbar() {
       <motion.header
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.9, delay: 2.6, ease: [0.76, 0, 0.24, 1] }}
+        transition={{ duration: 0.9, delay: 1.8, ease: [0.76, 0, 0.24, 1] }}
         style={{
           position: "fixed",
           top: 0, left: 0, right: 0,

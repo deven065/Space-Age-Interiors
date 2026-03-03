@@ -34,9 +34,9 @@ function Loader({ onComplete }: { onComplete: () => void }) {
       if (i < steps.length) {
         setProgress(steps[i]);
         i++;
-        setTimeout(tick, i === steps.length ? 300 : 380);
+        setTimeout(tick, i === steps.length ? 150 : 180);
       } else {
-        setTimeout(onComplete, 400);
+        setTimeout(onComplete, 200);
       }
     };
     tick();
@@ -47,7 +47,7 @@ function Loader({ onComplete }: { onComplete: () => void }) {
       key="loader"
       initial={{ y: 0 }}
       exit={{ y: "-100%" }}
-      transition={{ duration: 0.9, ease: [0.76, 0, 0.24, 1] }}
+      transition={{ duration: 0.6, ease: [0.76, 0, 0.24, 1] }}
       style={{
         position: "fixed", inset: 0, zIndex: 9999,
         background: "#0a0a0a",
@@ -530,7 +530,7 @@ export default function Home() {
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(10,10,10,0.98) 0%, rgba(10,10,10,0.92) 60%, rgba(10,10,10,0.98) 100%)" }} />
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: "clamp(3rem,8vw,7rem)", alignItems: "start", position: "relative", zIndex: 1 }} className="services-grid">
-          <div style={{ position: "sticky", top: "7rem" }}>
+          <div style={{ position: "sticky", top: "7rem" }} className="services-sidebar">
             <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.7rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "#c9a84c", marginBottom: "1rem" }}>What We Do</p>
             <h2 style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(2.2rem,4vw,3.5rem)", fontWeight: 300, color: "#f5f0e8", lineHeight: 1.2, letterSpacing: "-0.02em", marginBottom: "2rem" }}>
               Our Services
@@ -620,12 +620,16 @@ export default function Home() {
       <style>{`
         @media (max-width: 900px) {
           .about-grid, .services-grid { grid-template-columns: 1fr !important; }
+          .services-sidebar { position: static !important; }
           .projects-grid { grid-template-columns: 1fr 1fr !important; grid-template-rows: auto !important; }
           .stats-grid { grid-template-columns: 1fr 1fr !important; }
           .process-grid { grid-template-columns: 1fr 1fr !important; }
         }
         @media (max-width: 600px) {
           .projects-grid, .stats-grid, .process-grid { grid-template-columns: 1fr !important; }
+        }
+        @media (max-width: 480px) {
+          .projects-grid > * { min-height: 240px; }
         }
         * { cursor: none !important; }
         @media (hover: none) { * { cursor: auto !important; } }
