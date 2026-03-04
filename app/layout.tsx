@@ -18,12 +18,12 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "OM G Designs | Award-Winning Interior Design",
+  title: "Space Age Interiors | Award-Winning Interior Design",
   description:
-    "OM G Designs — Transforming spaces into timeless works of art. Premium interior design services for residential, commercial, and hospitality projects.",
-  keywords: "interior design, luxury interiors, OM G Designs, residential design, commercial design",
+    "Space Age Interiors — Transforming spaces into timeless works of art. Premium interior design services for residential, commercial, and hospitality projects.",
+  keywords: "interior design, luxury interiors, Space Age Interiors, residential design, commercial design",
   openGraph: {
-    title: "OM G Designs | Award-Winning Interior Design",
+    title: "Space Age Interiors | Award-Winning Interior Design",
     description: "Transforming spaces into timeless works of art.",
     type: "website",
   },

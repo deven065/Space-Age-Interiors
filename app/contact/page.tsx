@@ -15,8 +15,8 @@ const SERVICES = [
 ];
 
 const INFO = [
-  { icon: "◎", label: "Studio", value: "No. 2, Sharma Estate, opp. Mangesh Vidya Mandir,\nKokanipada, Malad East, Mumbai – 400 097", href: null },
-  { icon: "✉", label: "Email", value: "hello@omgdesigns.com", href: "mailto:hello@omgdesigns.com" },
+  { icon: "◎", label: "Studio", value: "R No. 21, 2, Vaishet Pada, Triveni Nagar,\nMalad East, Mumbai, Maharashtra 400097", href: null },
+  { icon: "✉", label: "Email", value: "hello@spaceageinteriors.com", href: "mailto:hello@spaceageinteriors.com" },
   { icon: "◇", label: "Phone", value: "+91 98921 14799", href: "tel:+919892114799" },
   { icon: "◈", label: "Hours", value: "Monday – Saturday\n9:00 AM – 7:00 PM", href: null },
 ];
@@ -213,18 +213,18 @@ export default function ContactPage() {
                 <div style={{ position: "absolute", top: 0, left: 0, width: 20, height: 20, borderTop: "1px solid #c9a84c", borderLeft: "1px solid #c9a84c", zIndex: 2, pointerEvents: "none" }} />
                 <div style={{ position: "absolute", bottom: 0, right: 0, width: 20, height: 20, borderBottom: "1px solid #c9a84c", borderRight: "1px solid #c9a84c", zIndex: 2, pointerEvents: "none" }} />
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.2371460449835!2d72.8628233!3d19.184841799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b70f8cbb60b5%3A0xfd43d3926e04dfc7!2sOM%20G%20DESIGNS%20Laxmi%20School%20Furnitures!5e0!3m2!1sen!2sin!4v1772550612799!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.295056811193!2d72.86154447580807!3d19.182310948625233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b700037d6f35%3A0xff4527de30dd34fe!2sSpace%20Age%20Interiors!5e0!3m2!1sen!2sin!4v1772606012175!5m2!1sen!2sin"
                   width="100%"
                   height="240"
                   style={{ border: 0, display: "block", filter: "invert(90%) hue-rotate(180deg) saturate(0.4) brightness(0.85)" }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="OM G Designs Location"
+                  title="Space Age Interiors Location"
                 />
               </div>
               <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.72rem", color: "rgba(245,240,232,0.3)", marginTop: "0.6rem", letterSpacing: "0.04em" }}>
-                OM G Designs · Mumbai
+                Space Age Interiors · Mumbai
               </p>
             </motion.div>
           </div>

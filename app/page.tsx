@@ -63,7 +63,7 @@ function Loader({ onComplete }: { onComplete: () => void }) {
         style={{ textAlign: "center" }}
       >
         <p style={{ fontFamily: "var(--font-dm-sans)", letterSpacing: "0.4em", fontSize: "0.7rem", color: "#c9a84c", textTransform: "uppercase", marginBottom: "1rem" }}>
-          OM G Designs
+          Space Age Interiors
         </p>
         <p style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(2rem,5vw,3.5rem)", color: "#f5f0e8", fontWeight: 300, letterSpacing: "-0.02em" }}>
           Crafting Excellence
@@ -285,7 +285,7 @@ function ServiceRow({ num, title, desc }: ServiceRowProps) {
 
 /* ─── TESTIMONIALS ───────────────────────────────────────── */
 const TESTIMONIALS = [
-  { quote: "OM G Designs transformed our penthouse into an editorial masterpiece. Every detail speaks of thoughtfulness and timeless luxury.", author: "Priya Mehta", role: "Penthouse Owner, Bandra" },
+  { quote: "Space Age Interiors transformed our penthouse into an editorial masterpiece. Every detail speaks of thoughtfulness and timeless luxury.", author: "Priya Mehta", role: "Penthouse Owner, Bandra" },
   { quote: "Working with this team was a revelation. They understood our vision before we even articulated it — and elevated it beyond imagination.", author: "Rahul & Sneha Kapoor", role: "Villa Project, Lonavala" },
   { quote: "The hospitality project they delivered for us set a new benchmark in our portfolio. Guests consistently ask who designed the space.", author: "Arjun Malhotra", role: "Boutique Hotel Group" },
 ];
@@ -375,7 +375,7 @@ export default function Home() {
       >
         {/* Parallax image */}
         <motion.div style={{ position: "absolute", inset: "-10%", y: heroY }}>
-          <Image src="https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=1920&q=85" alt="OM G Designs hero" fill priority style={{ objectFit: "cover" }} />
+          <Image src="https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=1920&q=85" alt="Space Age Interiors hero" fill priority style={{ objectFit: "cover" }} />
         </motion.div>
 
         {/* Dark gradient */}
@@ -478,7 +478,7 @@ export default function Home() {
             style={{ position: "relative" }}
           >
             <div style={{ position: "relative", aspectRatio: "4/5", overflow: "hidden" }}>
-              <Image src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=85" alt="OM G Designs studio" fill style={{ objectFit: "cover" }} />
+              <Image src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=85" alt="Space Age Interiors studio" fill style={{ objectFit: "cover" }} />
             </div>
             <div style={{ position: "absolute", bottom: "-1.5rem", right: "-1.5rem", background: "#c9a84c", padding: "1.5rem 2rem", maxWidth: 200 }}>
               <p style={{ fontFamily: "var(--font-cormorant)", fontSize: "1.6rem", color: "#0a0a0a", fontWeight: 400, lineHeight: 1.2 }}>28<br /><span style={{ fontSize: "0.8rem", fontFamily: "var(--font-dm-sans)", letterSpacing: "0.1em", textTransform: "uppercase" }}>Awards</span></p>
@@ -536,7 +536,7 @@ export default function Home() {
               Our Services
             </h2>
             <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.9rem", color: "rgba(245,240,232,0.5)", lineHeight: 1.8, marginBottom: "2rem" }}>
-              A full spectrum of design disciplines — each delivered with the precision and artistry that defines OM G Designs.
+              A full spectrum of design disciplines — each delivered with the precision and artistry that defines Space Age Interiors.
             </p>
             <MagBtn href="/services">All Services</MagBtn>
           </div>

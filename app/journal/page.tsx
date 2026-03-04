@@ -233,7 +233,7 @@ export default function JournalPage() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 1 }}
             style={{ fontFamily: "var(--font-dm-sans)", fontSize: "clamp(0.85rem,1.2vw,1rem)", lineHeight: 1.8, color: "rgba(245,240,232,0.5)", maxWidth: 500, margin: "24px auto 0" }}
           >
-            Ideas, insights and inspiration from the world of design — curated by the OM G Designs studio.
+            Ideas, insights and inspiration from the world of design — curated by the Space Age Interiors studio.
           </motion.p>
 
           {/* Scroll cue */}

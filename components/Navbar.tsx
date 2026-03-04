@@ -47,7 +47,7 @@ export default function Navbar() {
           href="/"
           style={{ fontFamily: "var(--font-cormorant)", fontSize: "1.35rem", fontWeight: 400, letterSpacing: "0.08em", color: "#f5f0e8", cursor: "none" }}
         >
-          OM G<span style={{ color: "#c9a84c" }}> ·</span> Designs
+          Space Age<span style={{ color: "#c9a84c" }}> ·</span> Interiors
         </Link>
 
         {/* Desktop nav */}

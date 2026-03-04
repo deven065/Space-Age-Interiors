@@ -62,7 +62,7 @@ export default function Footer() {
           <div>
             <Link href="/" style={{ display: "inline-block", marginBottom: "1.5rem", textDecoration: "none" }}>
               <span style={{ fontFamily: "var(--font-cormorant)", fontSize: "2.4rem", fontWeight: 300, letterSpacing: "0.06em", color: "#f5f0e8", display: "block", lineHeight: 1 }}>
-                OM G<span style={{ color: "#c9a84c" }}> ·</span> Designs
+                Space Age<span style={{ color: "#c9a84c" }}> ·</span> Interiors
               </span>
             </Link>
             <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.85rem", color: "rgba(245,240,232,0.45)", lineHeight: 1.9, maxWidth: 280, marginBottom: "2rem" }}>
@@ -126,9 +126,9 @@ export default function Footer() {
             <span style={label}>Get In Touch</span>
             <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
               {[
-                { sub: "Email", val: "hello@omgdesigns.com", href: "mailto:hello@omgdesigns.com" },
+                { sub: "Email", val: "hello@spaceageinteriors.com", href: "mailto:hello@spaceageinteriors.com" },
                 { sub: "Phone", val: "+91 98921 14799", href: "tel:+919892114799" },
-                { sub: "Studio", val: "No. 2, Sharma Estate, Kokanipada, Malad East, Mumbai – 400 097", href: null },
+                { sub: "Studio", val: "R No. 21, 2, Vaishet Pada, Triveni Nagar, Malad East, Mumbai, Maharashtra 400097", href: null },
               ].map(item => (
                 <div key={item.sub}>
                   <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.6rem", letterSpacing: "0.25em", textTransform: "uppercase", color: "rgba(245,240,232,0.25)", marginBottom: "0.35rem" }}>
@@ -155,7 +155,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1.8rem 0", gap: "1.5rem", flexWrap: "wrap" }}>
           <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.72rem", color: "rgba(245,240,232,0.25)", letterSpacing: "0.08em" }}>
-            © 2026 OM G Designs. All rights reserved.
+            © 2026 Space Age Interiors. All rights reserved.
           </p>
 
           {/* Digital Signature */}

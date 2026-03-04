@@ -71,7 +71,7 @@ export default function AboutPage() {
 
       {/* ── HERO ── */}
       <section style={{ position: "relative", minHeight: "90vh", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden" }}>
-        <Image src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80" alt="OM G Designs Studio" fill style={{ objectFit: "cover" }} priority />
+        <Image src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80" alt="Space Age Interiors Studio" fill style={{ objectFit: "cover" }} priority />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, rgba(5,5,5,0.88) 0%, rgba(5,5,5,0.65) 50%, rgba(10,10,10,1) 100%)" }} />
         <div style={{ position: "relative", zIndex: 1, textAlign: "center", padding: "8rem clamp(1.5rem,6vw,7rem) 5rem", maxWidth: 900, margin: "0 auto" }}>
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}
@@ -82,7 +82,7 @@ export default function AboutPage() {
           </motion.div>
           <motion.h1 initial={{ opacity: 0, y: 60 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
             style={{ fontFamily: "var(--font-cormorant)", fontSize: "clamp(3.5rem,10vw,8rem)", fontWeight: 300, color: "#f5f0e8", lineHeight: 1, letterSpacing: "-0.03em", marginBottom: "1.8rem" }}>
-            About <em style={{ color: "#c9a84c" }}>OM G</em><br />Designs
+            About <em style={{ color: "#c9a84c" }}>Space Age</em><br />Interiors
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.85 }}
             style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.95rem", color: "rgba(245,240,232,0.5)", lineHeight: 1.9, maxWidth: 560, margin: "0 auto" }}>
@@ -113,7 +113,7 @@ export default function AboutPage() {
             </h2>
             <div style={{ width: 40, height: 1, background: "#c9a84c", marginBottom: "1.8rem" }} />
             <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.9rem", color: "rgba(245,240,232,0.55)", lineHeight: 1.9, marginBottom: "1.2rem" }}>
-              Founded in Mumbai in 2014, OM G Designs has grown from a two-person boutique into a 20-strong multidisciplinary studio. Our work spans luxury residences, flagship commercial spaces and award-winning hospitality venues across India.
+              Founded in Mumbai in 2014, Space Age Interiors has grown from a two-person boutique into a 20-strong multidisciplinary studio. Our work spans luxury residences, flagship commercial spaces and award-winning hospitality venues across India.
             </p>
             <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.9rem", color: "rgba(245,240,232,0.55)", lineHeight: 1.9, marginBottom: "2.5rem" }}>
               We believe great design is never accidental — it is the product of rigorous thinking, deep empathy and an unrelenting commitment to craft. From the first pencil sketch to the final installation, every step is executed with the same level of care.
@@ -134,7 +134,7 @@ export default function AboutPage() {
               { src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80", mt: "0" },
             ].map((img, i) => (
               <div key={i} style={{ position: "relative", aspectRatio: "1", overflow: "hidden", marginTop: img.mt }}>
-                <Image src={img.src} alt="OM G Designs project" fill style={{ objectFit: "cover" }} />
+                <Image src={img.src} alt="Space Age Interiors project" fill style={{ objectFit: "cover" }} />
               </div>
             ))}
           </motion.div>
