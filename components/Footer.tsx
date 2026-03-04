@@ -163,6 +163,12 @@ export default function Footer() {
             <div style={{ width: 18, height: 1, background: "rgba(201,168,76,0.4)" }} />
             <p style={{ fontFamily: "var(--font-dm-sans)", fontSize: "0.65rem", letterSpacing: "0.12em", color: "rgba(245,240,232,0.2)" }}>
               Designed &amp; Developed by{" "}
+              <a
+                href="https://www.devendigitallabs.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
               <span
                 style={{
                   fontFamily: "var(--font-cormorant)",
@@ -174,10 +180,12 @@ export default function Footer() {
                   WebkitTextFillColor: "transparent",
                   backgroundClip: "text",
                   letterSpacing: "0.06em",
+                  cursor: "pointer",
                 }}
               >
                 Deven Digital Labs
               </span>
+              </a>
             </p>
             <div style={{ width: 18, height: 1, background: "rgba(201,168,76,0.4)" }} />
           </div>
